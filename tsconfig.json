@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // Set the JavaScript version
+        "module": "commonjs", // Use CommonJS for modules
+        "rootDir": "./src", // Source files location
+        "outDir": "./dist", // Compiled JavaScript files location
+        "strict": true, // Enable strict type checking
+        "esModuleInterop": true, // Allow default imports
+        "skipLibCheck": true, // Skip type checking of declaration files
+        "forceConsistentCasingInFileNames": true // Enforce case sensitivity
+    }
+}
