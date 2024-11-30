@@ -83,4 +83,6 @@ const serverOpts: ServerOptions = {
     key: readFileSync("./key.pem"),
     passphrase: "test",
 };
-https.createServer(serverOpts, app).listen(PORT);
+https.createServer(serverOpts, app).listen(PORT, () => {
+    console.log(`Server is listening on port ${PORT}`);
+});
