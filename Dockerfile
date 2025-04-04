@@ -34,7 +34,7 @@ RUN adduser --system --uid 1001 expressjs
 # copy project files
 COPY --from=builder /app/dist ./
 COPY --from=builder /app/node_modules ./node_modules
-COPY cert.pem key.pem ./
+COPY heavy-cert.pem heavy-key.pem ./
 
 USER expressjs
 
