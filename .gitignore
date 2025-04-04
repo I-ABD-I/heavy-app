@@ -130,5 +130,4 @@ dist
 .pnp.*
 
 # certificate
-cert.pem
-key.pem
+*.pem
